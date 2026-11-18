@@ -1,6 +1,6 @@
 [project]
 name = "digiato-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial read-only MCP server for Digiato (دیجیاتو, digiato.com), the Iranian tech news site: latest news, reviews, search, categories, tags, full articles."
 readme = "README.md"
 license = "PolyForm-Noncommercial-1.0.0"
