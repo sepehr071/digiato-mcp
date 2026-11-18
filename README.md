@@ -82,10 +82,6 @@ Real answer (18 Nov 2026): `dgt_tag(tag="samsung", limit=3)` returned 8,581 arti
 - Comments, user profiles and anything behind a login are not covered.
 - Digiato answered both Iranian and foreign networks in testing; if your network is blocked, set `DIGIATO_MCP_PROXY`. The server ignores system proxy variables on purpose.
 
-## How it works
-
-Digiato has no public API documentation. The endpoints (the site's own WordPress REST API) were mapped by watching digiato.com in Chrome, and every tool was then checked in Chrome against the real rendered pages (home feed, categories, search, reviews, tags, article pages) on 18 Nov 2026, in two passes. The server calls those same public endpoints through a Chrome-impersonating HTTP client, with a short cache and at most two requests at a time.
-
 ## فارسی
 
 <div dir="rtl">
